@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="LovelyCircleTextStyle">
+        <attr name="circleColor" format="color"/>
+        <attr name="circleLabel" format="string"/>
+        <attr name="labelColor" format="color"/>
+    </declare-styleable>
+</resources>

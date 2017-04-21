@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:60"
+        android:id="@+id/timer"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textSize="48sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <com.zahirherz.pushpress.FractionView
+        android:id="@+id/fraction_view"
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:circleColor="#ff0099"
+        custom:circleLabel="00:30"
+        custom:labelColor="#cccccc"/>
+</RelativeLayout>
